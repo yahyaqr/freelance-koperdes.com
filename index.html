@@ -1,0 +1,231 @@
+<!doctype html>
+<html class="no-js" manifest="cache.manifest" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>KOPERDES - Digitalisasi DESA untuk INDONESIA</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/config.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/nav-footer.css">
+  <link rel="stylesheet" href="css/vendor/splide.min.css">
+  <link rel="stylesheet" href="css/vendor/bootstrap-grid.min.css">
+
+  <link rel="stylesheet" href="css/vendor/Lightbox-Gallery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+
+  <script type="text/javascript" src="js/update_cache.js"></script>
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body onload="checkForUpdate()">
+
+  <!-- Add your site or application content here -->
+  <!-- NAV -->
+<nav class="nav">
+  <img class="background-nav" src="img/Batik.png" alt="">
+  <div href="/" class="logo">
+    KOPERDES
+  </div>
+
+  <div class="hamburger">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </div>
+
+  <div class="links hide">
+    <a href="" class="active">Beranda</a>
+  </div>
+</nav>
+
+<div class="hamburger-links hide">
+  <a href=""><b>Beranda</b></a>
+</div>
+
+<!-- SPLIDER -->
+<div id="image-slider" class="splide">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <img src="img/Splide-1.png" alt="plchldr.co">
+			</li>
+			<li class="splide__slide">
+        <img src="img/Splide-2.png" alt="plchldr.co">
+			</li>
+		</ul>
+  </div>
+
+  <div class="splide__progress">
+    <div class="splide__progress__bar">
+    </div>
+  </div>
+
+</div>
+
+<!-- INTRO -->
+<section>
+  <div class="container container-padding">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+          <img class="logo-koperdes" src="img/KOPERDES.png" alt="">
+        </div>
+        <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+          <h2 class="sm-text-center">Apa itu Koperdes?</h2>
+          <p class="sm-text-center">Koperdes merupakan singkatan dari Koperasi Konsumen Perangkat Desa Indonesia. Koperdes adalah koperasi primer nasional beranggotakan perangkat desa.</p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- Information -->
+<section class="bg-colored">
+  <div class="container container-padding">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Sekilas Informasi</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-3">
+            <div class="card">
+                <div class="card-body card-nav">
+                    <ul class="list-unstyled tab">
+                        <li class="tablinks active" onclick="openCity(event, 'koperdes')"><a>Mengenai Koperdes</a></li>
+                        <li class="tablinks" onclick="openCity(event, 'visimisi-koperdes')"><a>Visi Misi Koperdes</a></li>
+                        <li class="tablinks" onclick="openCity(event, 'struktur-koperdes')"><a>Struktur Koperdes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-7">
+            <div class="card">
+                <div class="card-body card-info">
+                    <div id="koperdes" class="tabcontent" style="display: block;">
+                      <h2>Mengenai Koperdes</h2>
+                      <div class="d-flex justify-content-center align-items-center">
+                        <img class="logo-sm" src="img/KOPERDES.png" alt="">
+                      </div>
+                      <h5 class="caption">Logo Koperdes</h5>
+                      <p>Koperasi Primer Nasional yang beranggotakan seluruh perangkat desa yang sudah tergabung dalam organisasi profesi Persatuan Perangkat Desa Indonesia.</p>
+                      <h3>Tujuan Koperdes</h3>
+                      <ul>
+                        <li><p>Meningkatkan kesejahteraan Perangkat Desa saat masih aktif.</p></li>
+                        <li><p>Memberikan bantuan biaya kesehatan untuk Perangkat Desa aktif.</p></li>
+                        <li><p>Memberikan Dana Pensiun untuk Perangkat Desa.</p></li>
+                        <li><p>Memberikan perlindungan hukum untuk seluruh Perangkat Desa.</p></li>
+                      </ul>
+                    </div>
+                    <div id="visimisi-koperdes" class="tabcontent">
+                        <h2>Visi Misi Koperdes</h2>
+                        <h3>Visi:</h3>
+                        <p>Meningkatkan peran serta anggota dalam berkoperasi untuk mendukung terbentuknya dunia usaha yang produktif dan kreatif sehingga dapat mewujudkan kesejahteraan dan keadilan ekonomi serta kemandirian usaha bagi anggota koperasi.</p>
+                        <h3>Misi:</h3>
+                        <ul>
+                          <li><p>Mengembangkan teknologi informasi dan komunikasi serta digitalisasi koperasi dan umkm desa.</p></li>
+                          <li><p>Membangun ekonomi kreatif melalui Koperasi.</p></li>
+                          <li><p>Menciptakan platform marketplace untuk semua UMKM.</p></li>
+                        </ul>
+                    </div>
+                    <div id="struktur-koperdes" class="tabcontent">
+                        <h2>Struktur Koperdes</h2>
+                        <h3>Susunan Pengawas</h3>
+                        <table class="struktur">
+                          <tbody>
+                            <tr>
+                              <td>Ketua Pengawas</td>
+                              <td>: Muhammad Hatta</td>
+                            </tr>
+                            <tr>
+                              <td>Anggota Pengawas</td>
+                              <td>: Mujito</td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td>&nbsp;&nbsp;Sarjoko</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <h3>Susunan Pengurus</h3>
+                        <table class="struktur mb-3">
+                          <tbody>
+                            <tr>
+                              <td>Ketua</td>
+                              <td>: IR. Bambang Subiantoro</td>
+                            </tr>
+                            <tr>
+                              <td>Sekretaris 1</td>
+                              <td>: Yudi Yulandar Firmansyah</td>
+                            </tr>
+                            <tr>
+                              <td>Sekretaris 2</td>
+                              <td>: Rofik Hikmayana</td>
+                            </tr>
+                            <tr>
+                              <td>Bendahara</td>
+                              <td>: Didit S. Rachmaditya SE</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<section class="bg-colored-dark" style="min-height: 175px;">
+  <div class="container container-padding" >
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+          <p class="sm-text-center">Bila anda memiliki pertanyaan, kritik, dan saran dapat menghubungi kami melalui email di <b>koperdes.id@gmail.com</b></p>
+      </div>
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+          <button class="btn" onclick="location.href='mailto:koperdes.id@gmail.com';">Hubungi Kami melalui Email</button>
+        </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>Copyright © 2021 Vismaya, All Rights Reserved.</span>
+</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+  <script src="js/vendor/Lightbox-Gallery.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/vendor/splide.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/nav-footer.js"></script>
+  <!-- <script src="https://www.google-analytics.com/analytics.js" async></script> -->
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+
+    import Splide from '@splidejs/splide';
+    new Splide( '.splide' ).mount();
+
+    var gallery = $('.gallery a').simpleLightbox();
+  </script>
+</body>
+
+</html>
