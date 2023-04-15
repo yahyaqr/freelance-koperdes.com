@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --font-title: 'Bebas Neue';
-    --font-body: 'Lato';
-    --monochrome-1: #FFFFFF;
-    --monochrome-2: #222222;
-    --primary: #013C50;
-    --secondary: #036D7F;
-    --transparent-dark: rgba(0,0,0,0.5);
-    --transparent-blue: rgba(54,105,207,0.5);
-    --transparent-tosca: rgba(3,109,127,0.1);
-    --transparent-green: #f5fffc;
-    --gradient-orange: linear-gradient(180deg, #C55E00 -8.26%, rgba(3, 109, 127, 0) 100%);
-    --footer-cta: #f7f7f7;
-    --footer-bottom: #f0f0f0;
-    font-family: var(--font-body);
+  --font-title: 'Bebas Neue';
+  --font-body: 'Lato';
+  --monochrome-1: #ffffff;
+  --monochrome-2: #222222;
+  --primary: #013c50;
+  --secondary: #036d7f;
+  --transparent-dark: rgba(0, 0, 0, 0.5);
+  --transparent-blue: rgba(54, 105, 207, 0.5);
+  --transparent-tosca: rgba(3, 109, 127, 0.1);
+  --transparent-green: #f5fffc;
+  --gradient-orange: linear-gradient(
+    180deg,
+    #c55e00 -8.26%,
+    rgba(3, 109, 127, 0) 100%
+  );
+  --footer-cta: #f7f7f7;
+  --footer-bottom: #f0f0f0;
+  font-family: var(--font-body);
 }
